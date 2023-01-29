@@ -14,6 +14,12 @@
    fig.2: 
 </p>
 
+We usually in our daily life calling this thing as a chip but in industrial terms it is known as package.
+
+And package are named as a QFN-48 or QUAD Flat No leads.
+
+The size of this package is 7mm and 7mm.
+
 
 </p>
 <p align="center">
