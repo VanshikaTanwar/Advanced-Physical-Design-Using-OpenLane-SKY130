@@ -45,6 +45,7 @@ Inside this chip there are various components Die,pads,core,etc.
    fig.5: 
 </p>
 
+A typical Chip or an idea chip consist of SOC,SRAm,ADC,DAC,PLL,SPI and a couple of components.
 
 </p>
 <p align="center">
