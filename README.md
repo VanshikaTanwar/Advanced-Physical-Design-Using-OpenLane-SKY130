@@ -55,6 +55,8 @@ A typical Chip or an idea chip consist of SOC,SRAm,ADC,DAC,PLL,SPI and a couple 
 
 Foundry IP’s
 
+# Open Source Digital ASIC Design
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/215344432-6bbbddcb-1bcb-4587-babd-9d3cccd248df.png"></br>
