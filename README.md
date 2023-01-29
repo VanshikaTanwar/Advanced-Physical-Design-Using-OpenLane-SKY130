@@ -27,6 +27,9 @@ The size of this package is 7mm and 7mm.
    fig.3: 
 </p>
 
+There is a chip which is assembled at the centre of the package and the chip is connected in this way as shown below.
+
+And these connectrions are used to send the outside world signals or external signals to the chip
 
 </p>
 <p align="center">
@@ -34,6 +37,7 @@ The size of this package is 7mm and 7mm.
    fig.4: 
 </p>
 
+Inside this chip there are various components Die,pads,core,etc.
 
 </p>
 <p align="center">
