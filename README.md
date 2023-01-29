@@ -53,6 +53,7 @@ A typical Chip or an idea chip consist of SOC,SRAm,ADC,DAC,PLL,SPI and a couple 
    fig.6: 
 </p>
 
+Foundry IP’s
 
 </p>
 <p align="center">
