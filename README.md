@@ -276,3 +276,12 @@ For example , as in this image the highlighted command means it sets the clock f
   <img src="https://user-images.githubusercontent.com/90523478/215449340-a7e0d9e9-21f7-463d-b960-5bb443f75e74.png"></br>
    fig.30: 
 </p>
+
+
+# Design Preparation Steps
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215479792-ce4aabb3-9480-4212-a8c2-37640310982e.png"></br>
+   fig.31 
+</p>
