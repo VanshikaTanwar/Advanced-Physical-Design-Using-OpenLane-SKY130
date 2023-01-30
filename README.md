@@ -96,9 +96,9 @@ Here, clean means:-
     • No Timing Violations 
 
     
-   • Openlane can also be used for harden macros and chips harden means to generate the GDSII Flow or Final Layout. 
+    • Openlane can also be used for harden macros and chips harden means to generate the GDSII Flow or Final Layout. 
    
-   • Openlane has 2 modes of operation :-
+    • Openlane has 2 modes of operation :-
 
 #Autonomous or interactive
 
@@ -147,10 +147,13 @@ OpenROAD, Magic VLSI Layout Tool, Fault,Yosys,Qflow, KLayout,etc.
 </p>
 
 
-• as shown sky130a.tech is the Skywater PDK we are using. It composes of libs.tech and libs.ref.
-• libs.tech  are those files which are specific to the tools.
-• libs.refs contains all the technology specific process, specific files which are respective to the timings, length,etc.
-• These file is dependent on the process technology we are using. In this case, the parameters, tools and technology use in skywater foundry.
+    • As shown sky130a.tech is the Skywater PDK we are using. It composes of libs.tech and libs.ref.
+
+    • libs.tech  are those files which are specific to the tool.
+    
+    • libs.refs contains all the technology specific process, specific files which are respective to the timings, length,etc. 
+
+    • These file is dependent on the process technology we are using. In this case, the parameters, tools and technology use in skywater foundry.
 
 </p>
 <p align="center">
