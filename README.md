@@ -285,3 +285,21 @@ For example , as in this image the highlighted command means it sets the clock f
   <img src="https://user-images.githubusercontent.com/90523478/215494909-bb22573e-7194-437a-8319-b0b885f3e7d2.png"></br>
    fig.31 
 </p>
+
+To start openlane we invoke the following commands which are mentioned below:-
+
+    1) Go to the vsdflow/work/tools/openlane_working_dir/OpenLane
+    
+    2) Execute this command after going into the respective directory of OpenLane 
+
+make mount
+
+    3) Then execute this command 
+
+./flow.tcl -interactive
+  
+  4) package require openlane 0.9
+  
+  5) prep -design picorv32a
+
+after the execution of last step this is shown :-
