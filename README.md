@@ -100,7 +100,7 @@ Here, clean means:-
    
     • Openlane has 2 modes of operation :-
 
-#Autonomous or interactive
+    #Autonomous or interactive
 
 
 # OpenLANE ASIC Flow
