@@ -282,6 +282,6 @@ For example , as in this image the highlighted command means it sets the clock f
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215479792-ce4aabb3-9480-4212-a8c2-37640310982e.png"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/215494909-bb22573e-7194-437a-8319-b0b885f3e7d2.png"></br>
    fig.31 
 </p>
