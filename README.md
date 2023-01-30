@@ -161,6 +161,17 @@ OpenROAD, Magic VLSI Layout Tool, Fault,Yosys,Qflow, KLayout,etc.
    fig.16: 
 </p>
 
+As, it is seems that all the files which are inside libs.ref are specific to the technology.
+
+Here, as seen below “sky130_fd_sc_hd” so, this nomenclature means :-
+
+Sky130 is the process name , as sky130nm.
+
+fd is the abbreviated foundry name as skywater foundry.
+
+Sc is standard cells which stands for library file.
+
+Hd is stands for high density.
 
 </p>
 <p align="center">
