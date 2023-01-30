@@ -147,6 +147,11 @@ OpenROAD, Magic VLSI Layout Tool, Fault,Yosys,Qflow, KLayout,etc.
 </p>
 
 
+• as shown sky130a.tech is the Skywater PDK we are using. It composes of libs.tech and libs.ref.
+• libs.tech  are those files which are specific to the tools.
+• libs.refs contains all the technology specific process, specific files which are respective to the timings, length,etc.
+• These file is dependent on the process technology we are using. In this case, the parameters, tools and technology use in skywater foundry.
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/215344949-1fc4addb-420b-4dbb-932a-1477bab6a444.png"></br>
