@@ -111,6 +111,11 @@ Here, clean means:-
    fig.1: 
 </p>
 
+OpenLane are based on several OpenSource Projects:-
+
+OpenROAD, Magic VLSI Layout Tool, Fault,Yosys,Qflow, KLayout,etc.
+
+# Day 1:
 
 </p>
 <p align="center">
