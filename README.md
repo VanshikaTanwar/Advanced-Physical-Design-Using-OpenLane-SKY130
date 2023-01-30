@@ -85,6 +85,22 @@ Foundry IP’s
    fig.10: 
 </p>
 
+The main goal of using openlane is “To produce a clean GDSII with no human intervention (no-human-in-the-loop)
+
+Here, clean means:-
+
+    • No LVS Violations
+
+    • No DRC Violations
+    
+    • No Timing Violations 
+
+    
+   • Openlane can also be used for harden macros and chips harden means to generate the GDSII Flow or Final Layout. 
+   
+   • Openlane has 2 modes of operation :-
+
+#Autonomous or interactive
 
 </p>
 <p align="center">
