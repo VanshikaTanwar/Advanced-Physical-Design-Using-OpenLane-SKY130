@@ -251,3 +251,28 @@ All the files inside the openlane directory are shown below:-
 </p>
 
 
+Many of the switches use default values that’s why we have used the less command in less config.tcl
+
+After executing this command this will come, 
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215448722-763edb31-7866-4c0a-8700-e1c9c29eeefe.png"></br>
+   fig.28: 
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215448931-46af6dda-a885-4f53-b0bd-3dd97d3ddd27.png"></br>
+   fig.29: 
+</p>
+
+It shows default values and it set file name.
+
+For example , as in this image the highlighted command means it sets the clock from default value to 24nm. It overwrites the default openlane setup.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215449340-a7e0d9e9-21f7-463d-b960-5bb443f75e74.png"></br>
+   fig.30: 
+</p>
