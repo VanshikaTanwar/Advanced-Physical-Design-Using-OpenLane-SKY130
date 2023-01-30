@@ -210,3 +210,44 @@ As, it is seems that all the files which are inside libs.tech are specific to th
   <img src="https://user-images.githubusercontent.com/90523478/215345106-222e1bf6-19af-4314-a886-8aa1140af255.png"></br>
    fig.21: 
 </p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215447178-125dfdb6-6e55-4131-970c-ec1122d42db1.png"></br>
+   fig.22: 
+</p>
+
+All the files inside the openlane directory are shown below:-
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215447562-7a4c5a5e-2b6f-4e8e-adc7-a528ee03c3f2.png"></br>
+   fig.23: 
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215447911-d9503024-a61c-47b6-8616-9e58e7090577.png"></br>
+   fig.24: 
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215448029-dcfbb6c3-0867-468a-89e3-3a2d00732649.png"></br>
+   fig.25: 
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215448135-4460af67-7110-48c5-81b8-0a6d4d198627.png"></br>
+   fig.26: 
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215448310-d41ce3d0-e013-4224-a192-dabb512d760e.png"></br>
+   fig.27: 
+</p>
+
+
