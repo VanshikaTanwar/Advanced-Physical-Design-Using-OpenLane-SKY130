@@ -179,6 +179,9 @@ Hd is stands for high density.
    fig.17: 
 </p>
 
+The files inside sky130_fd_sc_hd are shown in below image:-
+
+These files are used by the EDA tools in the design process.
 
 </p>
 <p align="center">
