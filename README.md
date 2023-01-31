@@ -693,3 +693,64 @@ After zoom in it is seen that the placement of all the standard cells in the sta
   <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
    fig.76
 </p>
+
+### Timing characterization
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215775529-19399c30-c678-46b3-af79-ded54bbbe9a8.png"></br>
+   fig.77
+</p>
+
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
+   fig.78 
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
+   fig.76
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
+   fig.76
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
+   fig.76
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
+   fig.76
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
+   fig.76
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
+   fig.76
+</p>
+
+
+
