@@ -843,18 +843,12 @@ To check the created folder
    fig.91
 </p>
 
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215789347-91c49c67-04a3-4072-8794-978009537478.png"></br>
-   fig.92
-</p>
-
 All the contents are displayed after cloning in the image given below:
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215789661-7bf35ef5-f1e5-4ead-9ca5-617295e4488e.png"></br>
-   fig.93
+  <img src="https://user-images.githubusercontent.com/90523478/215789347-91c49c67-04a3-4072-8794-978009537478.png"></br>
+   fig.92
 </p>
 
 Now, let’s open up the mag file to see all different layers which are used to create the inverter layout  but to open the mag file we need to have tech file first means the magic tech file to open it.It means that we need booth .mag file and .tech file in same folder.
@@ -863,10 +857,11 @@ So, first copy the sky130_inv.mag file from vsdstdcelldesign to vsdstdcelldesign
 
 cp sky130_inv.mag   /Desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/vsdstdcelldesign/libs
 
+
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215790111-16846e3d-dd26-4571-b5dc-64afe11a9ed7.png"></br>
-   fig.94
+  <img src="https://user-images.githubusercontent.com/90523478/215789661-7bf35ef5-f1e5-4ead-9ca5-617295e4488e.png"></br>
+   fig.93
 </p>
 
 
@@ -874,9 +869,10 @@ Now, look sky130_inv.mag file has been copied in vsdstdcelldesign/libs
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215790261-c1d8f7eb-e1d5-4473-9947-3e283f92270c.png"></br>
-   fig.95
+  <img src="https://user-images.githubusercontent.com/90523478/215790111-16846e3d-dd26-4571-b5dc-64afe11a9ed7.png"></br>
+   fig.94
 </p>
+
 
 Now, this sky130A.tech file is used to open the mag file in Magic.To execute the sky130_inv.mag file use this command:-
 
@@ -884,6 +880,8 @@ magic -T sky130A.tech sky130_inv.mag &
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215790365-a8d62461-519d-429e-a491-7df002bfada6.png"></br>
-   fig.96
+  <img src="https://user-images.githubusercontent.com/90523478/215790261-c1d8f7eb-e1d5-4473-9947-3e283f92270c.png"></br>
+   fig.95
 </p>
+
+
