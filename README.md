@@ -669,3 +669,21 @@ After zoom in it is seen that the placement of all the standard cells in the sta
   <img src="https://user-images.githubusercontent.com/90523478/215695003-1bd51aab-4ee0-42a6-a162-38b9cad0c716.png"></br>
    fig.72
 </p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215772274-5ec55b12-22d0-434f-b682-ce8f006e3ec1.png"></br>
+   fig.73
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215695003-1bd51aab-4ee0-42a6-a162-38b9cad0c716.png"></br>
+   fig.74
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215695003-1bd51aab-4ee0-42a6-a162-38b9cad0c716.png"></br>
+   fig.72
+</p>
