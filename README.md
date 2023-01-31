@@ -310,11 +310,17 @@ after the execution of last step this is shown :-
    fig.32
 </p>
 
+Checking the creation of file ,so a run folder is created within picorv32a 
+
+Since, today’s date is 27th January 2023 so a folder created is titled as “RUN_2023.01.27_19.36.16” within the picorv32a Directory.
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/215675497-3960863e-b642-4a41-8d51-bd5fbbefe7b5.png"></br>
    fig.33
 </p>
+
+These are the files after reviewing the run folder 
 
 </p>
 <p align="center">
@@ -322,11 +328,15 @@ after the execution of last step this is shown :-
    fig.34
 </p>
 
+After opening the tmp folder and see all the list of files , it shows:-
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/215675679-bc012d3c-f4c8-4f89-8f43-d79f386408b2.png"></br>
    fig.35
 </p>
+
+Some merged files are created under tmp folder inside RUN_2023.01.27_19.36.16
 
 </p>
 <p align="center">
@@ -334,11 +344,17 @@ after the execution of last step this is shown :-
    fig.36
 </p>
 
+merged.max.lef file after opening looks like this as shown in the image below. 
+
+merged.max.lef shows all the layers related information,layer vias, etc.
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/215675835-7a65e737-cc63-4a70-9412-f680a41f8df8.png"></br>
    fig.37
 </p>
+
+
 
 </p>
 <p align="center">
@@ -346,11 +362,19 @@ after the execution of last step this is shown :-
    fig.38
 </p>
 
+Next, we will run the synthesis of picorv32a design in the openlane interactive terminal
+
+run_synthesis
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/215676451-2bb3f8d3-4140-4506-bc97-dde789acecee.png"></br>
    fig.39
 </p>
+
+To calculate the Flop Ratio 
+
+we need to see the printing statistics content in synthesis folder within reports.
 
 </p>
 <p align="center">
