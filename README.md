@@ -303,3 +303,76 @@ make mount
   5) prep -design picorv32a
 
 after the execution of last step this is shown :-
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215675370-2a89da6f-7c40-4968-8cdb-26bdda31ad09.png"></br>
+   fig.32
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215675497-3960863e-b642-4a41-8d51-bd5fbbefe7b5.png"></br>
+   fig.33
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215675597-cda1a361-9c1a-4a37-9e53-18b6b42fb8fe.png"></br>
+   fig.34
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215675679-bc012d3c-f4c8-4f89-8f43-d79f386408b2.png"></br>
+   fig.35
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215675756-ee80a69b-1996-487d-93a8-e19402c77105.png"></br>
+   fig.36
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215675835-7a65e737-cc63-4a70-9412-f680a41f8df8.png"></br>
+   fig.37
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215676145-5ebdd685-5d55-429c-8df0-e297e91dbc1c.png"></br>
+   fig.38
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215676451-2bb3f8d3-4140-4506-bc97-dde789acecee.png"></br>
+   fig.39
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215675835-7a65e737-cc63-4a70-9412-f680a41f8df8.png"></br>
+   fig.37
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215675835-7a65e737-cc63-4a70-9412-f680a41f8df8.png"></br>
+   fig.37
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215675835-7a65e737-cc63-4a70-9412-f680a41f8df8.png"></br>
+   fig.37
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215675835-7a65e737-cc63-4a70-9412-f680a41f8df8.png"></br>
+   fig.37
+</p>
+
