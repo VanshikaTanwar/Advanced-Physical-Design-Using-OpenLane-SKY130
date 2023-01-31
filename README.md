@@ -561,3 +561,61 @@ To view the floorplan, magic is executed using following command.
    fig.59
 </p>
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215690921-ba44cce2-2296-47ac-befa-5d44f1b45199.png"></br>
+   fig.60
+</p>
+
+Press on the keyboard to bring it in the center.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215691224-ebb7e512-eabd-41e3-951d-98e6b6f79dac.png"></br>
+   fig.61
+</p>
+
+Zoom in view
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215691379-2a741222-f770-4c6e-8c9b-0cfac9bd207d.png"></br>
+   fig.62
+</p>
+
+There are decaps which are arranged along the side rows.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215691468-a9090933-ae96-49bc-8876-c358fc333d33.png"></br>
+   fig.63
+</p>
+
+Zoom in provides the view of decaps which are present in picorv32a.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215691560-ed498122-27ec-4a9d-8b1e-93cbfca645f2.png"></br>
+   fig.64
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215691631-0459d6d5-5691-476e-a8d1-d8a6597110cc.png"></br>
+   fig.65
+</p>
+
+The standard cell is found at the bottom of the left corner. This is buffer basically.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215691711-24c9cc2b-e191-4a66-9a21-a39072e14b5c.png"></br>
+   fig.66
+</p>
+
+Placement run on openlane and view in magic
+
+In placement we are doing the congestion related placement. We are just ensuring that the transition is left.
+
+Now, for the placement run command in openlanre
+
