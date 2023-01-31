@@ -617,5 +617,55 @@ Placement run on openlane and view in magic
 
 In placement we are doing the congestion related placement. We are just ensuring that the transition is left.
 
-Now, for the placement run command in openlanre
+Now, for the placement run command in openlane
 
+run_placement
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215694604-bc12c459-dddf-4f54-b0ec-1de8ebd5bdd7.png"></br>
+   fig.67
+</p>
+
+After the placement is done, a def file of placement is created within the picrv32a folder/run/result/placement  now the placement can be viewed in magic with the following command :-
+
+magic -T /home/vanshikatanwar/desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/pdks/volare/sky130/versions/9f1c2b06d2b5a6708cfe0b55679c7e84d37220cc/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.max.lef lef read ../../tmp/merged.min.lef lef read ../../tmp/merged.nom.lef def read picorv32.def &
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215694702-af2a6185-a8d0-4db0-8591-7112c49528fd.png"></br>
+   fig.68
+</p>
+
+The view of placement in magic looks like
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215694779-338dd405-4bab-43f2-81bb-4fe9f398fb44.png"></br>
+   fig.69
+</p>
+
+Press s
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215694850-919da388-3339-4f3c-a85e-02f1a24c2f5a.png"></br>
+   fig.70
+</p>
+
+zoom in view  of placement is shown below:-
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215694934-1030200b-4929-4d46-a82e-590ecaea1fe0.png"></br>
+   fig.71
+</p>
+
+After zoom in it is seen that the placement of all the standard cells in the standard cell rows 
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215695003-1bd51aab-4ee0-42a6-a162-38b9cad0c716.png"></br>
+   fig.72
+</p>
