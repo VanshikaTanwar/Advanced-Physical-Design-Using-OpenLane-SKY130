@@ -394,27 +394,4 @@ after the execution of last step this is shown :-
    fig.46
 </p>
 
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215681371-1a727f5e-01d6-4539-9dfe-252778c4419a.png"></br>
-   fig.47
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215681485-3655d2ef-a5fc-4c03-af74-2b8b48472be8.png"></br>
-   fig.48
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215680792-2760a448-f1a7-41ac-9099-df90c98abe0f.png"></br>
-   fig.43
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215680792-2760a448-f1a7-41ac-9099-df90c98abe0f.png"></br>
-   fig.43
-</p>
 
