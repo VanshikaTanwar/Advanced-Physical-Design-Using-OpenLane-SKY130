@@ -754,4 +754,136 @@ After zoom in it is seen that the placement of all the standard cells in the sta
 </p>
 
 
+# Day 3
 
+OpenLANE allows users to make changes to environment variables . If we want to change the pin placement from equidistant to some other style of placement .
+
+For that first we need to check and verify the value which is already set in the floorplan .tcl file.
+
+For checking it , go to this directory and the follows further steps as mentioned below:-
+
+Go to openlane/configurations/
+
+And open “less floorplan.tcl”
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215786452-4bffa95f-4aa3-4238-b88a-49c1d78aa5f5.png"></br>
+   fig.85
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215786781-6709f462-ba0e-4dbc-8ade-4ef52f14b16a.png"></br>
+   fig.86
+</p>
+
+Now, to change the environment variable , write this command in the OpenLANE:
+
+set ::env(FP_IO_MODE) 2
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215787110-7c9e86fe-abda-4299-b44e-89d9b9cac3fb.png"></br>
+   fig.87
+</p>
+
+Now, run the floorplan again in OpenLANE 
+
+run_floorplan
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215787332-c5915d49-438b-4ee1-baaf-7a9c2ebd39fd.png"></br>
+   fig.88
+</p>
+
+Now, post the floorplan the, def file has updated. Now use, that magic -T command which is used earlier to see floorplan in Magic tool to see that what has been updated now.
+
+Lab steps to git clone vsdstdcelldesign
+
+=Inverter Standard cell Layout & SPICE extraction
+ 
+    • The magic layout of a CMOS Inverter is used to integrate it with picorv32a design.
+    
+    • For  that , the inverter magic file is sourced from vsdstdcelldesign by cloning it within 
+    openlane directory 
+
+That is(i.e., cd vsdflow/work/tools/openlane_working_dir/OpenLane 
+
+Using this command :-
+
+ git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215787905-f2489ebe-304c-4c83-ba44-e7c8335328b2.png"></br>
+   fig.89
+</p>
+
+
+This creates a folder of name vsdstdcelldesign in the OpenLane directory.
+
+Now, write ls-ltr 
+
+To check the created folder
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215789110-c15569c8-e3b0-4095-8ed7-bbe7a8e316ba.png"></br>
+   fig.90
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215789215-10733960-ba9e-48eb-b010-10bc19c4aac7.png"></br>
+   fig.91
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215789347-91c49c67-04a3-4072-8794-978009537478.png"></br>
+   fig.92
+</p>
+
+All the contents are displayed after cloning in the image given below:
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215789661-7bf35ef5-f1e5-4ead-9ca5-617295e4488e.png"></br>
+   fig.93
+</p>
+
+Now, let’s open up the mag file to see all different layers which are used to create the inverter layout  but to open the mag file we need to have tech file first means the magic tech file to open it.It means that we need booth .mag file and .tech file in same folder.
+
+So, first copy the sky130_inv.mag file from vsdstdcelldesign to vsdstdcelldesign/libs using this command:
+
+cp sky130_inv.mag   /Desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/vsdstdcelldesign/libs
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215790111-16846e3d-dd26-4571-b5dc-64afe11a9ed7.png"></br>
+   fig.94
+</p>
+
+
+Now, look sky130_inv.mag file has been copied in vsdstdcelldesign/libs
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215790261-c1d8f7eb-e1d5-4473-9947-3e283f92270c.png"></br>
+   fig.95
+</p>
+
+Now, this sky130A.tech file is used to open the mag file in Magic.To execute the sky130_inv.mag file use this command:-
+
+magic -T sky130A.tech sky130_inv.mag & 
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215790365-a8d62461-519d-429e-a491-7df002bfada6.png"></br>
+   fig.96
+</p>
