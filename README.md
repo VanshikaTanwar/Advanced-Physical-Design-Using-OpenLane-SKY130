@@ -711,45 +711,46 @@ After zoom in it is seen that the placement of all the standard cells in the sta
 </p>
 
 
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
-   fig.76
-</p>
-
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
-   fig.76
+  <img src="https://user-images.githubusercontent.com/90523478/215782582-5f58cb82-9115-44ed-991e-e7f34f307323.png"></br>
+   fig.79
 </p>
 
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
-   fig.76
+  <img src="https://user-images.githubusercontent.com/90523478/215782792-bffef679-8602-4620-835b-6578b454d734.png"></br>
+   fig.80
 </p>
 
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
-   fig.76
+  <img src="https://user-images.githubusercontent.com/90523478/215783257-8a7ffa60-ac2c-4af0-bf2e-e2d05c2f2a9a.png"></br>
+   fig.81
 </p>
 
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
-   fig.76
+  <img src="https://user-images.githubusercontent.com/90523478/215783520-237aa288-048c-4dfc-9276-b54585990431.png"></br>
+   fig.82
 </p>
 
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
-   fig.76
+  <img src="https://user-images.githubusercontent.com/90523478/215784192-2067973c-cbe4-423a-92ad-46926cccdfc8.png"></br>
+   fig.83
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215784454-22ce08ad-6008-46f3-8381-e2d9ffd6b620.png"></br>
+   fig.84
 </p>
 
 
