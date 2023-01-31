@@ -479,7 +479,7 @@ Chip area is 99853.267200.
 
 Utilization Factor and Aspect Ratio.
 
-                Utilisation Factor =  Area occupied by netlist
+               • Utilisation Factor =  Area occupied by netlist
    
                                       __________________________
                       
