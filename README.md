@@ -484,3 +484,82 @@ Utilization Factor and Aspect Ratio.
                                       __________________________
                       
                                           Total area of core
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215687478-3fa3bf8c-2905-4d2f-b5f9-efa36007d737.png"></br>
+   fig.52
+</p>
+
+A utilization Factor of 1 signifies 100% utilization leaving no space for extra cells/logics such as to add buffer. However, practically , we only use utilization factor approximately 50%-60% or 0.5-0.6.
+
+   • Aspect Ratio
+   • Aspect ratio = Height/Width
+
+Aspect ratio 1 means that the chip is squared shaped. Any value which is another than 1 means it implies the rectangular shaped. It also means that when anything comes other than  1 then, the core is 50% utilized and the remaining area or extra amount of area is used to place the additional cells.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215687571-3995e2cd-4ad3-4ed0-9cd9-3b6cf9a44958.png"></br>
+   fig.53
+</p>
+
+Core utilization =area of netlist/total area of cell
+
+Here, FP_CORE_UTIL=50 means floorplan core utilization is 50%.
+
+Aspect ratio is 1.
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215687667-b56e3d47-187c-438c-8fa1-16a17388f15f.png"></br>
+   fig.54
+</p>
+
+Steps to run floorplan using OpenLANE
+
+After the synthesis , execute the run_floorplan command
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215687770-b2ce4ef6-e8b3-431b-b5f0-4ed869e95f1a.png"></br>
+   fig.55
+</p>
+
+Now, to review the floorplan files
+
+Post the floorplan , a picorv32a def file is created in the floorplan under results of run within picorv32a folder. Basically, def file describes about the core area.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215687844-becf68fe-ad07-4263-8793-db25e4ae6ca9.png"></br>
+   fig.56
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215688009-6176d4da-a641-43b8-83f1-41953a9840a1.png"></br>
+   fig.57
+</p>
+
+After opening Def file it’s showing below:-\
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215688075-ee4f3913-ffd2-48ed-934f-11b3a2006cbc.png"></br>
+   fig.58
+</p>
+
+To view the floorplan, magic is executed using following command.
+
+magic -T 
+
+  •/home/vanshikatanwar/desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/pdks/volare/sky130/versions/9f1c2b06d2b5a6708cfe0b55679c7e84d37220cc/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.max.lef lef read ../../tmp/merged.min.lef lef read ../../tmp/merged.nom.lef def read picorv32.def &
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215688164-c135c779-8755-4a65-8f0c-f9fe842ec9d7.png"></br>
+   fig.59
+</p>
+
