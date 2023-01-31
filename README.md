@@ -473,3 +473,12 @@ So, to view it we need to open  it
 Chip area is 99853.267200.
 
 
+## FloorPlan and Library Cells
+
+2 parameters are important mainly in floorplanning .These are:-
+
+Utilization Factor and Aspect Ratio.
+
+Utilisation Factor =  Area occupied by netlist
+                      __________________________
+                         Total area of core
