@@ -107,8 +107,8 @@ Here, clean means:-
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215343706-7823e1b9-93a4-4fd6-a22e-8f2cf3197330.jpg"></br>
-   fig.1: 
+  <img src="https://user-images.githubusercontent.com/90523478/215968264-df6f628b-14c9-41db-9539-0eb7d2cb63b5.PNG"></br>
+   fig.11: 
 </p>
 
 OpenLane are based on several OpenSource Projects:-
