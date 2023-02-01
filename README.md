@@ -903,9 +903,236 @@ magic -T sky130A.tech sky130_inv.mag &
    fig.98
 </p>
 
+To see which metal layer is which so, for that write 
+
+“what” command in tkcon window but before that drag and drop this white square on that part which you want to know that which metal layer it is 
+
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/215953118-45cb2c9f-473b-435e-8e64-cde969af1406.png"></br>
    fig.99
 </p>
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215953594-f458b8aa-8e88-4371-b216-195ec61e8394.png"></br>
+   fig.100
+</p>
+
+In SKY130 the first layer is known as local interconnect layer it’s metal 1 or locali as shown below:
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215953765-5ece648f-5cc3-4eb2-9f81-5db88a3fac36.png"></br>
+   fig.101
+</p>
+
+The pink layer is metal 2
+
+To verify whether this layout is actually a of CMOS inverter or not, so, for that, we need to verify the p-diffusion,n-diffusion, and polysilicon region. Verification of these regions with polysilicon can be observed:
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215954162-0698b6bb-1817-406b-aad7-d342e87bb863.png"></br>
+   fig.102
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215954455-8cc6db1b-d3df-49e7-b1fe-425fb112e36d.png"></br>
+   fig.103
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215954766-7ab2e93d-c7a9-4736-88a8-db3c0967fe17.png"></br>
+   fig.104
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215954808-6d0d0534-9ec4-4eff-887a-f2e4754f3589.png"></br>
+   fig.105
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215954859-3a4aac9b-8515-4726-8d5a-8d59dcff8dde.png"></br>
+   fig.106
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215954938-34def755-1ac0-4ec1-bcfa-f89360b8b7e5.png"></br>
+   fig.107
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215955040-d02c7176-acc2-4269-b118-f14c44e976e6.png"></br>
+   fig.108
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215955065-d5768fcb-ed09-411f-8871-544ea765db4c.png"></br>
+   fig.109
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215955163-a2213c93-3039-41e7-b0b7-fb632ce79ed6.png"></br>
+   fig.110
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215955198-70fe6c4a-3622-4645-8a24-8b20546196c4.png"></br>
+   fig.111
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215955269-620aafbe-96cc-4f1b-9eee-fc5c0a8d9488.png"></br>
+   fig.112
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215955297-cd1d0adb-b00b-455a-b582-c139e1429ae3.png"></br>
+   fig.113
+</p>
+
+The full form of LEF is Library Exchange Format .LEF has only metal layers it does not contain/have all the information of logic part.Because we don’t need for a PnR placement of any cell/any macros we don’t need information of the logic because we only need to know where are the pnR boundries  , if I need to place a cell , I just need to know where are the pins of the cell and where are the boundries where is VDD and where is Gnd.
+
+LEF is also showing the protecting IP.
+
+In commercial tools, LEF is also called the Frame view it basically shows the physical Layout Of an IP.
+
+
+SpiceExtraction
+
+Within Magic , the following commands are used in the tkcon window to achieve the .mag to .spice extraction:
+
+pwd
+
+extract all
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215955559-31bfea57-f425-4cd2-9f35-875b187233ad.png"></br>
+   fig.114
+</p>
+
+This extract is extracting our design “sky130_inv” into “sky130_inv.ext”.
+
+Now, let’s check that .ext spice file is created or not in vsdstdcelldesign folder
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215955720-1fcb509a-5aa4-4a6c-b0b7-cc98574ed752.png"></br>
+   fig.115
+</p>
+
+Now we are going to use this .ext file to create the spice file
+
+For that write these commands in tkcon window after the extract all command
+
+ext2spice cthresh 0 rthresh 0
+
+ext2spice 
+
+these above commands means ext2spice- extracting to spice file 
+
+cthresh 0 rthresh 0 means we are extracting all the parasitic capacitances after extracting the above commands the result is look like this :-
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215955904-e0f0045b-35d2-4e4c-8dff-bbfe3a2fd2f7.png"></br>
+   fig.116
+</p>
+
+Now, let’s check that either the spice file is created or not ?
+
+So, the spice file is created 
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215956512-54565acf-45c3-4bf5-8aa3-8528ba35ddb4.png"></br>
+   fig.117
+</p>
+
+Now, let’s see what is inside this spice file 
+
+To open spice file use this command
+
+vim sky130_inv.spice
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215956623-fa40aed5-442a-432a-8683-061df6898814.png"></br>
+   fig.118
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215956683-67dfeed2-6f92-4ceb-ac08-d682ded9b1b8.png"></br>
+   fig.119
+</p>
+
+Now , we edit this SPICE File
+
+By pressing s
+
+Now you can change the SPICE file in the terminal itself Changed spice file looks like this
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215956890-04091514-0fa6-43f3-9752-cae3ca6fc13a.png"></br>
+   fig.120
+</p>
+
+SPICE3 file created from sky130_inv.ext - technology: sky130A
+
+"
+  .option scale=0.01u
+  .include ./libs/pshort.lib
+  .include ./libs/nshort.lib
+
+//.subckt sky130_inv A Y VPWR VGND
+M1000 Y A VPWR VPWR pshort_model.0 w=37 l=23
++  ad=1443 pd=152 as=1517 ps=156
+M1001 Y A VGND VGND nshort_model.0 w=35 l=23
++  ad=1435 pd=152 as=1365 ps=148
+VDD VPWR 0 3.3V
+VSS VGND 0 0V
+Va A VGND PULSE(0V 3.3V 0.01ns 0.1ns 2ns 4ns)
+C0 Y A 0.05fF
+C1 A VPWR 0.07fF
+C2 Y VPWR 0.11fF
+C3 Y 0 0.24fF
+C4 VPWR 0 0.59fF
+//.ends
+.tran 1n 20n
+
+.control
+run
+.endc
+.end
+
+
+
+
+Now, to save this changes 
+Press esc
+Then write “
+:wq
+Hit enter
+
+
+For simulation ,ngspice is invoked in the terminal with following command:
+ 
+ngspice sky130_inv.spice
+"
