@@ -1347,3 +1347,109 @@ Now, write lef file using the command given below in tkcon window after opening 
 
 The given command executed in this way:-
 
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215963642-6c57e1be-6c5b-42cb-bd3a-ddad25dba7aa.png"></br>
+   fig.139
+</p>
+
+This generated the “sky130_vsdinv.lef “ file in your respective directory 
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215963881-6d5746e6-0bad-456a-9c40-0c56b0fa2790.png"></br>
+   fig.140
+</p>
+
+On opening this lef file using this command “less sky130_vsdinv.lef”
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215964094-ede3251d-3dfe-4357-a6bb-fe4796d46b06.png"></br>
+   fig.141
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215964143-c139a4a3-313a-4773-966f-5acc0a6b2d64.png"></br>
+   fig.142
+</p>
+
+
+Now, step is to integrate this LEF file with picorv32a.
+
+First copy the LEF file of inverter which you have generated in the respective directory of “picorv32a/src” i.e., 
+
+/home/vanshikatanwar/Desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/designs/picorv32a/src
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215964355-2b4d12f4-4082-450c-9b24-a245bce4586a.png"></br>
+   fig.143
+</p>
+
+Check that the file has copied or not
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215964530-51842a35-9934-478f-9ac0-8436cca89cba.png"></br>
+   fig.144
+</p>
+
+
+Now copy all these sky130_fd_sc_hd files inpicorv32a/src  using this command {--
+```sh
+
+cp sky130_fd_sc_hd_* /home/vanshikatanwar/Desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/designs/picorv32a/src
+```
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215964845-bc434848-4f2b-4cf3-9a56-fd1494d14b19.png"></br>
+   fig.145
+</p>
+
+Check that all the folders are copied or not.
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215965133-8b24ee9e-2217-429d-a923-1990d663d8e2.png"></br>
+   fig.146
+</p>
+
+As we need to integrate the standard cell in openlane  flow, execute all these commands which are given below:-
+
+prep -design picorv32a -tag RUN_2023.01.27_19.36.16 -overwrite
+
+set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
+
+add_lefs -src $lefs
+
+run_synthesis
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215965306-ae539e65-ad25-4b39-a02d-01d8e5820f8e.png"></br>
+   fig.147
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215965403-6c71a0ff-fd96-46e9-8ef5-6abc2de28375.png"></br>
+   fig.148
+</p>
+
+Run_floorplan
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215965588-5b9111f1-526f-4bcf-809c-f14d2ffddd01.png"></br>
+   fig.149
+</p>
+
+run_cts
+
