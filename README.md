@@ -65,6 +65,20 @@ Inside this chip there are various components Die,pads,core,etc.
    fig.5: 
 </p>
 
+PADS
+Pads are something through which we can send the signal inside the chip or any signal can go outside from inside the chip to the outside through this pads .
+
+Core
+Core of the chip
+Core is basically consist of different logics . A core is that place where all the digital logics are made or placed in this area like And ,or logic,etc.
+
+Die
+Die is basically the area of the chip . It is called as that die which is manufactured at the silicon wafer .
+
+
+
+
+
 A typical Chip or an idea chip consist of SOC,SRAm,ADC,DAC,PLL,SPI and a couple of components.
 
 </p>
@@ -74,6 +88,12 @@ A typical Chip or an idea chip consist of SOC,SRAm,ADC,DAC,PLL,SPI and a couple 
 </p>
 
 Foundry IP’s
+
+The word foundry means in terms of chip designing is factory .
+It is a type of factory which consist of some machines and it is that place our chips actually got manufactured or fabricated .And IP here means is intellectual property .It is something which has some intelligence means an organization has made it with some unique intelligence which is new in market ,or which is latest which is updated , as others cannot have the right to copy it if anyone try to copy then copyright issue will be created to that person.
+
+Macros 
+Digital blocks here are called MACROS.Macros are basically a pure digital logic.
 
 # Open Source Digital ASIC Design
 
@@ -691,46 +711,30 @@ After zoom in it is seen that the placement of all the standard cells in the sta
 </p>
 
 </p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215773056-b0c8359a-c907-4cdf-97ac-f70b0bf949e4.png"></br>
-   fig.73
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215773859-69f079a1-184b-4456-b000-26106be1a41a.png"></br>
-   fig.74
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215773162-906a2855-ebcc-4b82-af8a-8a801db9e6bb.png"></br>
-   fig.75
-</p>
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
-   fig.76
-</p>
 
 ## Timing characterization
+
+Different threshold points of waveform itself .
+Timing threshold points
+So, we use this waveform to define different threshold and to understand the other characteristics .
+
+
+1) Slew_low_rise_thr - low depicts the power which is close to 0 power supply 
+To calculate the slope or slew of this red particular waveform so, we need 2 points for it and defines those 2 points .
+Typical value of slew_low_rise_thr is 20%.
+It could be 30% also.
+
+This is for rising waveform ,similarly it applies for falling waveform .
+
+
+We need these values for calculating the slews of the waveform i.e., slew low rise threshold, slew high rise threshold,slew
+ low fall threshold,slew high fall thr.
 
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/215775529-19399c30-c678-46b3-af79-ded54bbbe9a8.png"></br>
    fig.77
 </p>
-
-
-
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215774272-5025e9ca-e0e8-48c3-8862-fb59dc6bcbf6.png"></br>
-   fig.78 
-</p>
-
-
 
 </p>
 <p align="center">
@@ -744,6 +748,17 @@ After zoom in it is seen that the placement of all the standard cells in the sta
   <img src="https://user-images.githubusercontent.com/90523478/215782792-bffef679-8602-4620-835b-6578b454d734.png"></br>
    fig.80
 </p>
+
+
+
+In_rise_thr is input waveform 
+For example ,this is input stimulus We have given input to the stimulus and taking the output from the buffer.
+
+In_rise_thr 
+We also have threshold for delay as well.We need some point to calculate the delay .
+In this case we take 50% red waveform that is slew waveform .And one point on output waveform to calculate the delay.
+
+ypical value of inrise threshold is 50%. It's basically input rising waveform.
 
 
 </p>
@@ -1482,6 +1497,7 @@ run_cts
 - [YOUTUBE/OpenLane Overview](https://www.youtube.com/watch?v=d0hPdkYg5QI)
 - [GitHUB/openlane_build_script](https://github.com/nickson-jose/openlane_build_script)
 - [GitLab/OpenLANE-Sky130-Physical-Design-Workshop](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop)
+-[Udemy course/VSD-a-complete-guide-to-install-open-source-eda-tools)
 
 ## Acknowledgement
 
