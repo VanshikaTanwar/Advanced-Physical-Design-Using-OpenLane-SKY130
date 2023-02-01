@@ -885,3 +885,27 @@ magic -T sky130A.tech sky130_inv.mag &
 </p>
 
 
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215952753-a32e8a61-ea96-41c5-aae4-3bbd42e737d4.png"></br>
+   fig.96
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215952916-91a80dc3-3245-4397-97f9-312a2cc65578.png"></br>
+   fig.97
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215953031-21caa148-034a-46ee-8b89-e9c35483994b.png"></br>
+   fig.98
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215953118-45cb2c9f-473b-435e-8e64-cde969af1406.png"></br>
+   fig.99
+</p>
+
