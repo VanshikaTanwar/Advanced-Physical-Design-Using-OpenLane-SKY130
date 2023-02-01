@@ -1140,3 +1140,117 @@ For simulation ,ngspice is invoked in the terminal with following command:
 ngspice sky130_inv.spice
 
 ```
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215957698-a8494a15-7412-4fac-a694-5a31ee25e7b5.png"></br>
+   fig.121
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215957765-7d9145be-ade7-4908-bc4e-ea81ca3e5edd.png"></br>
+   fig.122
+</p>
+
+To plot the waveform between y and time 
+
+So, for that we need to write this command in ngSpice:-
+
+The waveform obtained after executing this command is
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215957930-538882b8-d5a8-4778-a3c0-2887f0208f6d.png"></br>
+   fig.123
+</p>
+
+NOTE:- The spike which is coming in the output at switching point is due to the low load capacitance. It can be changed by editing the spice to increase the load capacitance value.
+
+#### Inverter standard cell characterization 
+ There are total 4 timing parameters that are used to characterize the inverter standard cells. These are:-
+  
+  1 Rise Transition – It is the time taken for the output to rise from 20% of the maximum value  to 80% of the maximum value.
+ 
+ 2 Fall transition - It is the time taken for the output to fall from 80% of the maximum value  to 20% of the maximum value.
+ 
+ 3 Cell rise delay = time(50% output rise)- time(50% input fall).
+ 
+ 4 Cell fall delay = time(50% output fall)- time(50% input rise).
+
+All these above parameters can be calculated by observing and noting down various values grom the generated ngspice waveform.
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215958206-ca9ce1df-9f94-4aa7-aaa1-cbf468132539.png"></br>
+   fig.124
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215958266-f8db1b83-b4b9-43ae-a2b1-01a4c96c95e5.png"></br>
+   fig.125
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215958335-27d45898-bc72-4ec9-86f1-5e3c2d41c88d.png"></br>
+   fig.126
+</p>
+
+```sh
+
+Rise transition =( 5.47009 - 5.18462 ) = 0.28547=28.5ps
+```
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215958522-23ca0e51-913b-4508-91a6-b135d06fc19e.png"></br>
+   fig.127
+</p>
+
+```sh
+
+Fall Transition = ( 5.7121 – 4.5082 ) = 1.2039= 1.20ps
+```
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215958663-9e079ea3-7d38-43e4-9940-3aa8739831d2.png"></br>
+   fig.128
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215958796-89b4fe74-76ef-4d66-b28c-99a3adf04dda.png"></br>
+   fig.129
+</p>
+
+
+```sh
+
+Cell Rise Delay = ( 5.32564 – 5.11026 ) = 0.21538=0.215ps
+```
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215958992-4da47209-7035-44fa-bf48-461a29a1f91a.png"></br>
+   fig.130
+</p>
+
+```sh
+
+Cell fall delay = ( 5.32564 – 5.11154 ) = 0.2141=0.214ps 
+```
+
+### MAGIC FEATURES & DRC Rules
+
+The technology  file is a setup file that declares layer types,colors,patterns,electrical connectivity,DRC,device extraction rules and the rules to read LEF and DEF files.
+
+Magic layout can be sourced from this link 
+
+opencircuitdesign.com using this command:
+
+wget https://opencircuitdesign.com/openpdks/archive/drc_tests.tgz
+
+Lab 3 left in between due to some error 
