@@ -1254,3 +1254,36 @@ opencircuitdesign.com using this command:
 wget https://opencircuitdesign.com/openpdks/archive/drc_tests.tgz
 
 Lab 3 left in between due to some error 
+
+
+# Day 4
+
+The input and output ports is that there should be an intersection between vertical and horizontal tracks as shown in the tracks.info file. The CMOS Inverter input and output ports A and Y are on li 1 Layer.
+
+To see the tracks.info file follow the given steps below:-
+    
+    1 First, go to the directory where your sky130A pdk file is stored. In my UBUNTU it is stored in this directory which is mentioned below:-
+
+```sh
+
+/Desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/pdks/volare/sky130/versions/9f1c2b06d2b5a6708cfe0b55679c7e84d37220cc/sky130A/libs.tech/openlane/sky130_fd_sc_hd
+```
+
+    2 After this command do ls -ltr and see all the file content 
+
+    3 Then, open the track.info file using this command: less tracks.info
+    
+    
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215959906-065e6094-ea0d-4d45-8296-f52e572f67ed.png"></br>
+   fig.131
+</p>
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215960000-10190494-bcd7-4cdb-8898-11124f6db5c2.png"></br>
+   fig.132
+</p>
+
+These all are metal traces
