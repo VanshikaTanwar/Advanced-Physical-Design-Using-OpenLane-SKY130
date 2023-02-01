@@ -1,5 +1,25 @@
 # Advanced-Physical-Design-Using-OpenLane-SKY130
 
+# Table of Contents
+
+- [Design](#Design)
+- [Open Source Digital ASIC Design](#Open-Source-Digital-ASIC Design)
+- [Openlane](#Openlane)
+- [OpenLANE ASIC Flow](#OpenLANE-ASIC-Flow)
+- [OpenLane ](#OpenLane)
+- [OpenLane design stages](#OpenLane-design-stages)
+- [Day 1](#Day-1)
+	- [Design Preparation Steps](#Design-Preparation-Steps)
+- [Day 2](#Day-2)
+	- [FloorPlan and Library Cells](#FloorPlan-and-Library-Cells)
+	- [Timing characterization] (#Timing-characterization)
+- [Day 3](#Day-3)
+	- [Inverter standard cell characterization] (#Inverter-standard-cell-characterization)
+	- [MAGIC FEATURES & DRC Rules] (#-MAGIC-FEATURES-&-DRC-Rules)
+- [References](#references)
+- [Acknowledgement](#acknowledgement)
+- [Author](#author)
+
 
 </p>
 <p align="center">
@@ -694,7 +714,7 @@ After zoom in it is seen that the placement of all the standard cells in the sta
    fig.76
 </p>
 
-### Timing characterization
+## Timing characterization
 
 </p>
 <p align="center">
@@ -1168,7 +1188,7 @@ The waveform obtained after executing this command is
 
 NOTE:- The spike which is coming in the output at switching point is due to the low load capacitance. It can be changed by editing the spice to increase the load capacitance value.
 
-#### Inverter standard cell characterization 
+## Inverter standard cell characterization 
  There are total 4 timing parameters that are used to characterize the inverter standard cells. These are:-
   
   1 Rise Transition – It is the time taken for the output to rise from 20% of the maximum value  to 80% of the maximum value.
@@ -1243,7 +1263,7 @@ Cell Rise Delay = ( 5.32564 – 5.11026 ) = 0.21538=0.215ps
 Cell fall delay = ( 5.32564 – 5.11154 ) = 0.2141=0.214ps 
 ```
 
-### MAGIC FEATURES & DRC Rules
+## MAGIC FEATURES & DRC Rules
 
 The technology  file is a setup file that declares layer types,colors,patterns,electrical connectivity,DRC,device extraction rules and the rules to read LEF and DEF files.
 
@@ -1453,3 +1473,21 @@ Run_floorplan
 
 run_cts
 
+
+## References
+
+- [GitLab/OpenLane workshop](https://gitlab.com/gab13c/openlane-workshop)
+- [The OpenROAD Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
+- Ahmed Ghazy and Mohamed Shalan, "OpenLane: The Open-Source Digital ASIC Implementation Flow", Article No.21, Workshop on Open-Source EDA Technology (WOSET), 2020. [Paper](https://github.com/woset-workshop/woset-workshop.github.io/blob/master/PDFs/2020/a21.pdf)
+- [YOUTUBE/OpenLane Overview](https://www.youtube.com/watch?v=d0hPdkYg5QI)
+- [GitHUB/openlane_build_script](https://github.com/nickson-jose/openlane_build_script)
+- [GitLab/OpenLANE-Sky130-Physical-Design-Workshop](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop)
+
+## Acknowledgement
+
+- [Kunal Ghosh](https://github.com/kunalg123), Founder, VSD Corp. Pvt. Ltd
+
+## Author
+
+- [Vanshika Tanwar](https://github.com/vanishka-tanwar), Bachelor of Technology in Electronics & Communication Engineering,Dronacharya Group of Institutions,Greater Noida, U.P.
+ 
