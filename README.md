@@ -1094,6 +1094,9 @@ Now you can change the SPICE file in the terminal itself Changed spice file look
    fig.120
 </p>
 
+
+
+```sh
 SPICE3 file created from sky130_inv.ext - technology: sky130A
 
 "
@@ -1135,4 +1138,5 @@ Hit enter
 For simulation ,ngspice is invoked in the terminal with following command:
  
 ngspice sky130_inv.spice
-"
+
+```
