@@ -1287,3 +1287,63 @@ To see the tracks.info file follow the given steps below:-
 </p>
 
 These all are metal traces
+
+To ensure and verify that actually ports are lie on the intersection point, the grid spacing need to adjust in Magic using tkcon window , it must be changed to li1 X and li1 Y values. Convergence of grid and track can be seen using the below given commands:-
+
+Now, let’s see grid
+
+For grid what we need, 
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215961350-c77b7fec-4bbe-4912-a7cd-21330dbc4612.png"></br>
+   fig.133
+</p>
+
+grid 0.46um 0.34um 0.23um 0.17um
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215961490-7eeae9d2-f8b4-406b-805b-b901357f472f.png"></br>
+   fig.134
+</p>
+
+The result of this command is given below:-
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215961682-21a1dcf1-099e-4f8b-b256-fa78bcb933ea.png"></br>
+   fig.135
+</p>
+
+Now save this file with this command :
+save (any name which you want to give this file to save  it of your choice ).mag
+“save sky130_vsdinv.mag”
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215961904-026b1c43-69bf-4c30-8ff5-166300bcd3c5.png"></br>
+   fig.136
+</p>
+
+Look the new file is saved now in your respective folder
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215962122-a65474e2-d50c-468a-b904-450c653683c9.png"></br>
+   fig.137
+</p>
+
+Now, exit that tkcon window by writing “exit” command in tkcon and open this new saved file in magic again
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215962350-9889e94d-1788-4cb5-abe2-e7d4f0b770b7.png"></br>
+   fig.138
+</p>
+
+Now, write lef file using the command given below in tkcon window after opening the above file:
+“lef write”
+
+The given command executed in this way:-
+
