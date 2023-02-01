@@ -3,7 +3,7 @@
 # Table of Contents
 
 - [Design](#Design)
-- [Open Source Digital ASIC Design](#Open-Source-Digital-ASIC Design)
+- [Open Source Digital ASIC Design] (#Open-Source-Digital-ASIC Design)
 - [Openlane](#Openlane)
 - [OpenLANE ASIC Flow](#OpenLANE-ASIC-Flow)
 - [OpenLane ](#OpenLane)
