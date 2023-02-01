@@ -3,7 +3,7 @@
 # Table of Contents
 
 - [Design](#Design)
-- [Open Source Digital ASIC Design](#Open-Source-Digital-ASIC Design)
+- [Open Source Digital ASIC Design](#Open-Source-Digital-ASIC-Design)
 - [Openlane](#Openlane)
 - [OpenLANE ASIC Flow](#OpenLANE-ASIC-Flow)
 - [OpenLane ](#OpenLane)
@@ -14,8 +14,8 @@
 	- [FloorPlan and Library Cells](#FloorPlan-and-Library-Cells)
 	- [Timing characterization](#Timing-characterization)
 - [Day 3](#Day-3)
-	- [Inverter standard cell characterization] (#Inverter-standard-cell-characterization)
-	- [MAGIC FEATURES & DRC Rules] (#-MAGIC-FEATURES-&-DRC-Rules)
+	- [Inverter standard cell characterization](#Inverter-standard-cell-characterization)
+	- [MAGIC FEATURES & DRC Rules](#-MAGIC-FEATURES-&-DRC-Rules)
 - [References](#references)
 - [Acknowledgement](#acknowledgement)
 - [Author](#author)
