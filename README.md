@@ -1487,8 +1487,7 @@ magic -T /home/vanshikatanwar/desktop/vsdflow/work/tools/openlane_working_dir/Op
 
 </p>
 <p align="center">
-  <img src="[magic_pic](https://user-images.githubusercontent.com/90523478/216212268-b30c3bff-99ef-4b38-8004-eb4c045754d2.png)
-nt.com/"></br>
+  <img src="https://user-images.githubusercontent.com/90523478/216212268-b30c3bff-99ef-4b38-8004-eb4c045754d2.png"></br>
    fig.149
 </p>
 
