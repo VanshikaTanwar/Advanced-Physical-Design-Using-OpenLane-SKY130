@@ -59,7 +59,7 @@ For more information check [here](https://openlane.readthedocs.io/)
 	- `Netgen` - Performs LVS Checks
 	- `CVC` - Performs Circuit Validity Checks
 
-
+# Introduction
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90523478/215343706-7823e1b9-93a4-4fd6-a22e-8f2cf3197330.jpg"></br>
@@ -1573,6 +1573,7 @@ In Detailed Routing, To do the physical wiring finger grids and routing grids.
 Now,  to invoke routing in terminal in Tritonroute of OpenLane , just run this command:-
 
 run_routing
+
 At the end, of routing ,one can observe some DRC violations which come in the end of this step.In such situations , some different strategies of routing we need to follow , which depends on time and memory.
 
 
