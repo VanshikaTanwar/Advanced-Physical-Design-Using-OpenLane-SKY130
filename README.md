@@ -1493,11 +1493,52 @@ magic -T /home/vanshikatanwar/desktop/vsdflow/work/tools/openlane_working_dir/Op
 
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90523478/215965588-5b9111f1-526f-4bcf-809c-f14d2ffddd01.png"></br>
-   fig.149
+  <img src=" https://user-images.githubusercontent.com/90523478/216212708-8516da0d-58c5-4bc8-8a68-56c9e8d4a286.png"></br>
+  
+Fig.150
 </p>
 
-run_cts
+</p>
+<p align="center">
+  <img src=" https://user-images.githubusercontent.com/90523478/216212852-75decbd6-6724-4bd2-8aec-257b3e14d95b.png"></br>
+
+ fig.151
+
+</p>
+
+
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/215965588-5b9111f1-526f-4bcf-809c-f14d2ffddd01.png"></br>
+   fig.152
+</p>
+
+Hence, we have successfully interface inverter with picorv32a
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90523478/216213042-ef4ca873-0b46-45d9-957e-76e608926136.png"></br>
+   fig.153
+</p>
+
+# Day 5
+After the executing successfully of CTS and Post CTS ,STA analysis , a PDN (power distribution Network) is generated :
+gen_pdn
+To confirm the generation of PDN file , ten check the current def environment variable 
+“echo $::env(CURRENT_DEF)”
+
+## Routing
+
+Routing is used to make the physical connection between pins through the use of metal layers.
+Routing occurs in 2 ways:-
+Global routing and detailed routing
+In Global Routing , the region of routing is divided into rectangular grids which is shown as 3D route.
+In Detailed Routing, To do the physical wiring finger grids and routing grids.
+
+Now,  to invoke routing in terminal in Tritonroute of OpenLane , just run this command:-
+
+run_routing
+At the end, of routing ,one can observe some DRC violations which come in the end of this step.In such situations , some different strategies of routing we need to follow , which depends on time and memory.
+
 
 
 ## References
