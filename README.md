@@ -1325,9 +1325,10 @@ Magic layout can be sourced from this link
 
 opencircuitdesign.com using this command:
 
-wget https://opencircuitdesign.com/openpdks/archive/drc_tests.tgz
 
-Lab 3 left in between due to some error 
+wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+tar xfz drc_tests.tgz
+
 
 
 # Day 4
