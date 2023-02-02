@@ -1576,6 +1576,8 @@ run_routing
 
 At the end, of routing ,one can observe some DRC violations which come in the end of this step.In such situations , some different strategies of routing we need to follow , which depends on time and memory.
 
+This is how Day 5 lab ends
+
 
 
 ## References
