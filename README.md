@@ -1476,9 +1476,21 @@ run_synthesis
   <img src="https://user-images.githubusercontent.com/90523478/215965403-6c71a0ff-fd96-46e9-8ef5-6abc2de28375.png"></br>
    fig.148
 </p>
+Next floorplan is run followed by placement , The command used for this is :-
+Init_floorplan
+run_placement
 
-Run_floorplan
+run_floorplan
 
+For checking the layout run this command in terminal and open your layout in magic:-
+magic -T /home/vanshikatanwar/desktop/vsdflow/work/tools/openlane_working_dir/OpenLane/pdks/volare/sky130/versions/9f1c2b06d2b5a6708cfe0b55679c7e84d37220cc/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.max.lef lef read ../../tmp/merged.min.lef lef read ../../tmp/merged.nom.lef def read picorv32.def &
+
+</p>
+<p align="center">
+  <img src="[magic_pic](https://user-images.githubusercontent.com/90523478/216212268-b30c3bff-99ef-4b38-8004-eb4c045754d2.png)
+nt.com/"></br>
+   fig.149
+</p>
 
 </p>
 <p align="center">
