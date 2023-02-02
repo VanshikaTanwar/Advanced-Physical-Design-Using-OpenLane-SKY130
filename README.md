@@ -1493,17 +1493,14 @@ magic -T /home/vanshikatanwar/desktop/vsdflow/work/tools/openlane_working_dir/Op
 
 </p>
 <p align="center">
-  <img src=" https://user-images.githubusercontent.com/90523478/216212708-8516da0d-58c5-4bc8-8a68-56c9e8d4a286.png"></br>
-  
+  <img src=" https://user-images.githubusercontent.com/90523478/216212708-8516da0d-58c5-4bc8-8a68-56c9e8d4a286.png"></br>  
 Fig.150
 </p>
 
 </p>
 <p align="center">
   <img src=" https://user-images.githubusercontent.com/90523478/216212852-75decbd6-6724-4bd2-8aec-257b3e14d95b.png"></br>
-
- fig.151
-
+  fig.151
 </p>
 
 
